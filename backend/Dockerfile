@@ -7,7 +7,7 @@ COPY . ./
 WORKDIR /apps
 EXPOSE 8000
 
-
+ 
 USER root
 RUN echo -e "http://nl.alpinelinux.org/alpine/v3.13/main\nhttp://nl.alpinelinux.org/alpine/v3.13/community" > /etc/apk/repositories
 RUN echo "http://dl-cdn.alpinelinux.org/alpine/v3.13/main" > /etc/apk/repositories
