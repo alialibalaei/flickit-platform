@@ -7,7 +7,6 @@
 # EXPOSE 3000
 
 
-
 # Use an official Node runtime as a parent image
 FROM node:18.9.0-alpine
 
