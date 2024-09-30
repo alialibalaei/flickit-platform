@@ -16,8 +16,6 @@ on:
       - frontend/**
 
 
-
-
 jobs:
   Build_Frontend:
     runs-on: ubuntu-latest
